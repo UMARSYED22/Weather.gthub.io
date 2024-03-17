@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0099ff82;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: blueviolet;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.input input{
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    font-size:16px ;
+    width: 200px;
+}
+.input button{
+    padding:10px ;
+    background-color: #0099ff;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.weather-box{
+    margin-top: 50px;
+    border: 2px solid black;
+    height: 500px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.weather{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.temperature{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.wind{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
